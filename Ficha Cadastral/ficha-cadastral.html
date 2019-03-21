@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ficha Cadastral</title>
+    <link rel="stylesheet" type="text/css"/>
+  </head>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      #cabecalho{
+        font-size: 20px;
+        font-family: Arial,Verdana, sans-serif;
+        color:darkgrey;
+        text-align: center;
+        }
+        #intens1{
+          font-size: 10px;
+          font-family: Arial,helvetica,sans-serif;
+        }
+
+        #RG{
+          float: left;
+          padding: 5;
+        }
+        #CPF{
+          float: left;
+          padding: 5;
+        }
+        #endereco{
+          margin: 5;
+        }
+        </style>
+    <body>
+      <div id="cabecalho">
+        <h1>Ficha Cadastral</h1>
+      </div>
+      <div id="itens1">
+        <fieldset>
+        Dados Pessoais
+        <div id="nome">
+          <p>Nome:</p>
+        <input type="text" id="nome" name:"Nome"/>
+      </div>
+      <div id="RG">
+        <label for="RG">RG:
+          <input type="text" name="RG"/>
+            </label>
+          </div>
+          <div id="CPF">
+          <label for="CPF">CPF:
+            <input type="text" name="CPF"/>
+              </label>
+            </div>
+          <div id="Endereco">
+            <p>Endereço:</p>
+        <input type="text" id="endereco"name:"Endereco"/>
+          </div>
+      <div id="data">
+        <p>Data De Nascimento:</p>
+        <input type="text" id="nascimento"name:"data de nascimento"/>
+      </div>
+      <div id="genero">
+        <label for="Genero">Gênero:
+          <select>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outros">Outros</option>
+            </div>
+            </label>
+          </div>
+          <div id="estadocivil">
+            <p>Estado Civil:</p>
+            <input type="radio" name="estadocivil"  checked="checked"/>
+            Solteiro(a)
+            <input type="radio" name="estadocivil"  checked="checked"/>
+            Casado(a)
+            <input type="radio" name="estadocivil"  checked="checked"/>
+            Viuvo(a)
+          </label>
+            </div>
+          </fildset>
+    </body>
+</html>
